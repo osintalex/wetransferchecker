@@ -1,0 +1,12 @@
+.DS_Store
+WeTransfer Checker Logs.txt
+weTransfer-link.txt
+env/
+dev-notes.py
+.idea
+.pytest_cache
+app/.DS_Store
+app/__pycache__
+app/setup.py
+app/build
+app/dist
