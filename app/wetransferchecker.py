@@ -110,7 +110,7 @@ class WeTransfer:
 def GUI():
     """
     A very simple gui to allow non-technical users to run this program.
-    :return: A list; first value is an absolute file path and second value is a directory path.
+    :return: None.
     """
     sg.theme("Dark Teal 7")
 
