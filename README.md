@@ -16,10 +16,7 @@
 * [Contact](#contact)
 
 ## Usage
-If you're on a mac, you can download a zip file [here](.zip/wetransferchecker.zip). Simply unzip it,
-copy the cloud icon to your applications folder and then double click it to run the program.
-
-Otherwise, you'll need to make sure python3.8 is installed on your machine before running the following commands in 
+Make sure python3.8 is installed on your machine before running the following commands in 
 the same directory:
 
 ```
