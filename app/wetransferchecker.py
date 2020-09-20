@@ -85,17 +85,17 @@ class WeTransfer:
                 ).text
                 time.sleep(30 - ((time.time()) - start_time) % 30)  # checks every 30s
                 if driver.find_elements_by_xpath(xpaths["upload status"]):
-                    after_5m_upload_status = driver.find_element_by_xpath(
+                    after_thirty_seconds_upload_status = driver.find_element_by_xpath(
                         xpaths["upload status"]
                     ).text
                     logging.info("[*] Checking upload status....")
-                    if original_upload_status == after_5m_upload_status:
+                    if original_upload_status == after_thirty_seconds_upload_status_upload_status:
                         logging.info("[*] The upload has failed; restarting...")
                         result = []
                         driver.close()
                         break
                     logging.info(
-                        "[*] Upload status is good, {}.".format(after_5m_upload_status)
+                        "[*] Upload status is good, {}.".format(after_thirty_seconds_upload_status)
                     )
             elif driver.find_elements_by_xpath(xpaths["final link"]):
                 logging.info("[*] Upload successful, saving your link!")
